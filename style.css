@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Allison&family=Kaisei+Tokumin&display=swap');
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+/* ****************NAVBAR*************** */
+nav {
+    overflow: hidden;
+    background-color: #2f5f23;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: bold;
+    float: left;
+}
+/* *******************Image Pricipale****************** */
+#ImagePrincipale {
+    padding-top: 60px;
+    background: url(media/fond\ ecran\ néon.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Allison', cursive;
+    text-align: center;
+    color: #ffffff;
+    font-size: 6em;
+    margin-top: 50px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+}
+
+#premierTrait {
+    height: 1px;
+    width: 30%;
+    margin: -50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+#premierligne {
+    margin-top: 400px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #00ccff, 0 0 30px #00ccff, 0 0 40px #00ccff, 0 0 55px #00ccff, 0 0 75px #00ccff, 0px 0px 8px #00ccff;
+}
+
+#deuxiemeligne {
+    margin-top: -50px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #00ccff, 0 0 30px #00ccff, 0 0 40px #00ccff, 0 0 55px #00ccff, 0 0 75px #00ccff, 0px 0px 8px #00ccff;
+}
+
+/* *******************Presentation***************** */
+
+#presentation {
+    background-color: rgb(5, 5, 4);
+    padding: 10px 0px 100px 0;
+}
+
+#textIntro {
+    padding: 0px 10%;
+    text-align: center;
+}
+
+#reseau {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.imagesReseaux h4 {
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+.imagesReseaux img {
+    transform: scale(1);
+}
+
+.imagesReseaux img:hover {
+    opacity: 0.5;
+    transition: 0.8s ease-in-out;
+    transform: scale(1.05);
+}
+
+/* *************************************Fin********************* */
+
+footer {
+    background-color: rgb(18, 5, 31);
+    color: #fffaE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+}
